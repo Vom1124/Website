@@ -481,7 +481,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 50%;
+    flex: 0 0 30%;
     text-align: justify; /* Justifies the text inside */
 }
 
@@ -509,7 +509,7 @@ body:not(.user-is-tabbing) a:focus {
 @media(min-width: 901px) {
     .work__image-box {
         flex: 1;
-        margin: 0 0 0 10rem;
+        margin: 0 0 0 0rem;
         /* width:100%;
         height:auto;
         display: block; */
