@@ -481,7 +481,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
+    flex: 0 0 35%;
     text-align: justify; /* Justifies the text inside */
 }
 
@@ -499,7 +499,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__code:hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 .work__image-box {
@@ -534,7 +534,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .client__logo {
     height: auto;
-    max-width: 20rem;
+    max-width: 10rem;
 }
 
 @media(max-width: 1240px) {
@@ -565,6 +565,7 @@ body:not(.user-is-tabbing) a:focus {
     .about__content {
         flex-direction: column-reverse;
         align-items: initial;
+        text-align: justify;
     }
 }
 
