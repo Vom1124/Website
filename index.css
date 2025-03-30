@@ -452,6 +452,10 @@ body:not(.user-is-tabbing) a:focus {
 .work__box {
     display: flex;
     align-items: center;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping of content to avoid stretching */
+
 }
 
 @media(max-width: 900px) {
@@ -478,8 +482,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__text {
     flex: 0 0 30%;
-    margin: auto;
-    justify-content: space-evenly; /* Justifies the text inside */
+    text-align: justify; /* Justifies the text inside */
 }
 
 .work__list {
