@@ -534,10 +534,10 @@ body:not(.user-is-tabbing) a:focus {
 
 .client__logo {
     height: auto;
-    max-width: 10rem;
+    max-width: 40rem;
 }
 
-@media(max-width: 1240px) {
+@media(max-width: 800px) {
     .client__logos {
         overflow-x: scroll;
         padding: var(--gutter-normal);
