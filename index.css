@@ -509,9 +509,9 @@ body:not(.user-is-tabbing) a:focus {
 @media(min-width: 901px) {
     .work__image-box {
         flex: 1;
-        margin: 0 0 0 5rem;
-        width: max-content;
-        height: fit-content;
+        margin: 0 0 0 10rem;
+        width: 100%;
+        height: max-content;
     }
 }
 
