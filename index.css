@@ -574,9 +574,9 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 901px) {
+@media(min-width: 915px) {
     .about__text {
-        flex: 0 0 35%;
+        flex: 0 0 50%;
     }
     
     .about__photo-container {
