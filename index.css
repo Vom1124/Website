@@ -346,6 +346,7 @@ body:not(.user-is-tabbing) a:focus {
 .nav {
     display: flex;
     justify-content: flex-end;
+    width: 100%; /*Ensuring full width span*/
     padding: var(--gutter-normal) 0;
 }
 
