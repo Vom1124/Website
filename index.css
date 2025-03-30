@@ -481,7 +481,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 35%;
+    flex: 0 0 25%;
     text-align: justify; /* Justifies the text inside */
 }
 
