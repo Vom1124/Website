@@ -478,6 +478,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__text {
     flex: 0 0 30%;
+    text-align: center; /* Centers the text inside */
 }
 
 .work__list {
@@ -551,6 +552,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    text-align: center; /* Centers the text inside */
 }
 
 @media(max-width: 900px) {
