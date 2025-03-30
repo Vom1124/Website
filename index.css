@@ -477,8 +477,8 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
-    text-align: center; /* Centers the text inside */
+    flex: 0 0 40%;
+    text-align: justify; /* Justifies the text inside */
 }
 
 .work__list {
@@ -552,7 +552,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    text-align: center; /* Centers the text inside */
+    text-align: justify; /* Justifies the text inside */
 }
 
 @media(max-width: 900px) {
@@ -568,7 +568,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .about__text {
-        flex: 0 0 35%;
+        flex: 0 0 40%;
     }
     
     .about__photo-container {
