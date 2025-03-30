@@ -554,7 +554,7 @@ body:not(.user-is-tabbing) a:focus {
     flex-direction: row-reverse;
     align-items: center;
     margin: auto;
-    justify-content: space-evenly; /* Justifies the text inside */
+    justify-content: space-between; /* Justifies the text inside */
 }
 
 @media(max-width: 900px) {
