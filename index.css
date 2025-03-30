@@ -478,7 +478,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__text {
     flex: 0 0 40%;
-    text-align: justify; /* Justifies the text inside */
+    margin: auto;
+    justify-content: space-evenly; /* Justifies the text inside */
 }
 
 .work__list {
@@ -553,7 +554,7 @@ body:not(.user-is-tabbing) a:focus {
     flex-direction: row-reverse;
     align-items: center;
     margin: auto;
-    text-align: justify; /* Justifies the text inside */
+    justify-content: space-evenly; /* Justifies the text inside */
 }
 
 @media(max-width: 900px) {
@@ -569,7 +570,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .about__text {
-        flex: 0 0 40%;
+        flex: 0 0 50%;
     }
     
     .about__photo-container {
