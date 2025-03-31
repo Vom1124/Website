@@ -4,4 +4,4 @@
 
 To View the live site click [here &rarr;](https://vom1124.github.io/Portfolio/)
 
-![Portfolio Gif](/images/portfolio_review.gif)
+![Portfolio Gif](/images/portfolio_preview.gif)
