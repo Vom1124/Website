@@ -415,7 +415,7 @@ body:not(.user-is-tabbing) a:focus {
   }
 
   .nav__item{
-    margin-top: 10px;
+    margin-top: 1px;
   }
 } 
 
