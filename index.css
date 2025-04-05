@@ -414,12 +414,10 @@ body:not(.user-is-tabbing) a:focus {
     align-items: flex-start;
   }
 
-  .nav {
+  .nav__item{
     margin-top: 10px;
   }
 } 
-
-This didn't work
 
 /* --------------------------------------- */
 /* ----- Header ----- */
