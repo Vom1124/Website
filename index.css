@@ -417,11 +417,11 @@ body:not(.user-is-tabbing) a:focus {
   }
 
   .nav__item{
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: white;
-    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 8px 10px;
     z-index: 10;
   }
 } 
