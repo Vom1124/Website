@@ -412,11 +412,16 @@ body:not(.user-is-tabbing) a:focus {
   .header {
     flex-direction: column;
     align-items: flex-start;
+    position: relative;
   }
 
   .nav__item{
     position: fixed;
-    margin-top: 1px;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    z-index: 10;
   }
 } 
 
