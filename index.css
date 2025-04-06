@@ -434,12 +434,17 @@ body:not(.user-is-tabbing) a:focus {
     background: linear-gradient(rgba(114, 9, 9, 0.507), rgba(33, 0, 0, 0.804)), 
         url('./images/header.jpg');
     height: 100vh;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
 }
-
+@supports (height: 100dvh) {
+    .header {
+      height: 100dvh;
+    }
+}
 .header__text {
     position: absolute;
     top: 50%;
