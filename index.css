@@ -382,7 +382,8 @@ body:not(.user-is-tabbing) a:focus {
     display: inline-block;
     padding: 1rem 0;
     text-decoration: none;
-    color: inherit;
+    /* color: inherit; */
+    color:coral;
     transition: all .2s;
 }
 
