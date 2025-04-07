@@ -383,7 +383,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 0;
     text-decoration: none;
     /* color: inherit; */
-    color:rgba(81, 107, 155, 0.932);
+    color:bisque;
     transition: all .2s;
 }
 
@@ -432,7 +432,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(to top left, rgba(255, 0, 0, 0.3), rgba(255, 165, 0, 0.3)),
+    background: linear-gradient(to top left, rgba(255, 0, 0, 0.5), rgba(255, 165, 0, 0.75)),
     url('./images/header3.jpg');
     background-blend-mode: screen;
     height: 100dvh;
