@@ -433,13 +433,14 @@ body:not(.user-is-tabbing) a:focus {
 .header {
     background: linear-gradient(rgba(119, 5, 5, 0.952), rgba(71, 11, 11, 0.804)), 
         url('./images/header.jpg');
-    height: 100vh;
-    min-height: 100vh;
+    height: 100dvh;
+    min-height: 100dvh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
     font-size: var(--font-size-normal);
+    overflow: hidden; /* Optional: prevent overflow if the image scales oddly */
 }
 @supports (height: 100dvh) {
     .header {
