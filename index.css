@@ -383,7 +383,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 0;
     text-decoration: none;
     /* color: inherit; */
-    color:rgba(23, 52, 61, 0.801);
+    color:rgba(81, 107, 155, 0.932);
     transition: all .2s;
 }
 
