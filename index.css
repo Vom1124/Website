@@ -431,7 +431,7 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Header ----- */
 /* --------------------------------------- */
 .neon-box {
-    background: rgba(0, 0, 0, 0.75); /* semi-transparent black */
+    background: rgba(34, 34, 34, 0.7) /* semi-transparent black */
     padding: 10px 20px;
     border-radius: 12px;
     display: inline-block;
@@ -440,7 +440,7 @@ body:not(.user-is-tabbing) a:focus {
   }
   
 .header {
-    background: linear-gradient(to top left, rgba(255, 0, 0, 0.2), rgba(255, 165, 0, 0.25)),
+    background: linear-gradient(to top left, rgba(255, 0, 0, 0.2), rgba(255, 165, 0, 0.65)),
     url('./images/header3.jpg');
     background-blend-mode: screen;
     height: 100dvh;
