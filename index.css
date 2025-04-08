@@ -435,8 +435,8 @@ body:not(.user-is-tabbing) a:focus {
     padding: 10px 20px;
     border-radius: 12px;
     display: inline-block;
-    color: #39FF14;
-    text-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
   }
 .neon-box_minor {
     background: rgba(34, 34, 34, 0.5); /* semi-transparent black */
