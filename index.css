@@ -436,11 +436,11 @@ body:not(.user-is-tabbing) a:focus {
     border-radius: 12px;
     display: inline-block;
     color: #fff00f;
-    text-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
   }
   
 .header {
-    background: linear-gradient(to top left, rgba(255, 0, 0, 0.6), rgba(255, 165, 0, 0.2)),
+    background: linear-gradient(to top left, rgba(255, 0, 0, 0.2), rgba(88, 58, 2, 0.877)),
     url('./images/header3.jpg');
     background-blend-mode: screen;
     height: 100dvh;
