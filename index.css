@@ -435,16 +435,16 @@ body:not(.user-is-tabbing) a:focus {
     padding: 10px 20px;
     border-radius: 12px;
     display: inline-block;
-    color: #b376f8bd;
+    color: #af8dffbd;
     text-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
   }
 .neon-box_minor {
-    background: rgba(34, 34, 34, 0.3); /* semi-transparent black */
+    background: rgba(34, 34, 34, 0.5); /* semi-transparent black */
     padding: 10px 20px;
     border-radius: 12px;
     display: inline-block;
     color: #fff00f;
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 1.0);
   }
   
 .header {
