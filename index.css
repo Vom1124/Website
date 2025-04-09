@@ -432,12 +432,12 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Header ----- */
 /* --------------------------------------- */
 .neon-box_major {
-    background: rgba(34, 34, 34, 0.65); /* semi-transparent black */
+    background: rgba(34, 34, 34, 0.8); /* semi-transparent black */
     padding: 10px 20px;
     border-radius: 12px;
     display: inline-block;
     color: #FFFFFF;
-    text-shadow: 0 0 20px rgba(125, 74, 74, 0.698), 0 0 4px rgba(255, 255, 255, 0.35);
+    text-shadow: 0 0 50px rgba(125, 74, 74, 1.0), 0 0 15px rgba(255, 255, 255, 0.35);
   }
 .neon-box_minor {
     background: rgba(34, 34, 34, 0.65); /* semi-transparent black */
