@@ -437,7 +437,7 @@ body:not(.user-is-tabbing) a:focus {
     border-radius: 12px;
     display: inline-block;
     color: #FFFFFF;
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3), 0 0 4px rgba(255, 255, 255, 0.2);
+    text-shadow: 0 0 20px rgba(125, 74, 74, 0.698), 0 0 4px rgba(255, 255, 255, 0.35);
   }
 .neon-box_minor {
     background: rgba(34, 34, 34, 0.65); /* semi-transparent black */
@@ -445,7 +445,7 @@ body:not(.user-is-tabbing) a:focus {
     border-radius: 12px;
     display: inline-block;
     color: #fff00f;
-    text-shadow: 0 0 7px rgba(0, 0, 0, 1.0);
+    text-shadow: 0 0 30px rgb(48, 40, 40);
   }
   
 .header {
