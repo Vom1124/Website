@@ -415,8 +415,8 @@ body:not(.user-is-tabbing) a:focus {
 /* adjust for landscape mode*/
 @media (max-width: 768px) and (orientation: landscape) {
     .header {
-        padding: 10px 5px; /* Reduced padding */
-        padding-top: 50 px;
+        /* padding: 10px 5px; Reduced padding */
+        padding-top: 50px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center; /* Better vertical centering */
@@ -443,7 +443,7 @@ body:not(.user-is-tabbing) a:focus {
 
     /* Navigation adjustments */
     .nav__item {
-        top: 15px !important;
+        top: 5px !important;
         right: 10px !important;
         gap: 10px !important;
     }
