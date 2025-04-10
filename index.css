@@ -417,39 +417,32 @@ body:not(.user-is-tabbing) a:focus {
     background-position: center center;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    /*align-items: flex-end;*/
     justify-content: flex-start;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     /* gap: 10px; #Adds vertical spacing */
     position: relative;
     /* top: 0;
     left: 0; */
     width: 100%;
-    padding: 10px 20px; /* give room for nav */
+    padding: 5px; /* give room for nav */
     box-sizing: border-box; /* Ensure padding doesn't overflow */
+    z-index:0;
   }
 
-  /* .nav {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-    width: auto;
-  } */
 
     .nav__item{
-    position: static;
+    position: absolute;
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    gap: 10px;
+    /*flex-wrap: wrap;*/
+    align-items: flex-start;
+    gap: 30px;
     justify-content: flex-start;
     border-radius: 5px; /* optional: make it look nicer */
-    top: 10px;
+    padding-top: 20px;
+    top: 50px;
     right: 10px;
-    z-index: 10;
+    z-index: 1;
   }
    /* Optional: Adjust text size or layout for the navigation items */
     .nav__item a {
