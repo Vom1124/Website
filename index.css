@@ -417,6 +417,8 @@ body:not(.user-is-tabbing) a:focus {
     .header {
         padding: 10px 5px; /* Reduced padding */
         padding-top: 50 px;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center; /* Better vertical centering */
     }
 
