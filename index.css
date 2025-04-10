@@ -423,9 +423,9 @@ body:not(.user-is-tabbing) a:focus {
     /* Text hierarchy adjustments */
     .header h1 {
         margin-top: 2.0rem !important;
-        font-size: 2.0rem !important;
+        font-size: 1.5rem !important;
         margin-bottom: 1.0rem !important;
-        line-height: 1.5;
+        line-height: 1.1;
     }
 
     .header h2 {
@@ -434,9 +434,9 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .header p {
-        font-size: 1.5rem !important;
+        font-size: 1.35rem !important;
         margin-bottom: 1rem !important;
-        line-height: 1.3;
+        line-height: 1.1;
     }
 
     /* Navigation adjustments */
