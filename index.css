@@ -415,38 +415,40 @@ body:not(.user-is-tabbing) a:focus {
   .header {
     background-size: cover;
     background-position: center center;
+    min-height: 100vh; /* Ensure full viewport coverage */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /*align-items: flex-end;*/
-    justify-content: flex-start;
-    align-items: flex-start;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
     /* gap: 10px; #Adds vertical spacing */
-    position: relative;
+    /* position: relative; */
     /* top: 0;
     left: 0; */
-    width: 100%;
-    padding: 5px; /* give room for nav */
+    /* width: 100%; */
+    padding: 20px 5px; /* give room for nav */
     box-sizing: border-box; /* Ensure padding doesn't overflow */
-    z-index:0;
+    /* z-index:0; */
   }
 
 
     .nav__item{
     position: absolute;
     display: flex;
-    /*flex-wrap: wrap;*/
-    align-items: flex-start;
-    gap: 30px;
+    top: 20px; /* Closer to top */
+    right: 20px; /* More spacing from edge */
+    gap: 15px; /* Reduced gap for landscape */
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+    /* align-items: flex-start;
     justify-content: flex-start;
-    border-radius: 5px; /* optional: make it look nicer */
-    padding-top: 20px;
-    top: 50px;
-    right: 10px;
-    z-index: 1;
+    z-index: 1; */
   }
    /* Optional: Adjust text size or layout for the navigation items */
-    .nav__item a {
-    font-size: 1.2em; /* Slightly larger font for better visibility */
+  .nav__item a {
+    font-size: 1em; /* Slightly smaller for landscape */
+    padding: 5px 10px; /* Better touch targets */
+    background: rgba(255,255,255,0.1); /* Better visibility */
+    border-radius: 5px;
   }
 } 
 
