@@ -426,7 +426,8 @@ body:not(.user-is-tabbing) a:focus {
   }
 
     .nav__item{
-    position: absolute;
+    position: static;
+    border-radius: 5px; /* optional: make it look nicer */
     top: 10px;
     right: 10px;
     z-index: 10;
