@@ -429,18 +429,9 @@ body:not(.user-is-tabbing) a:focus {
     box-sizing: border-box; /* Ensure padding doesn't overflow */
   }
 
-  /* .nav {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-    width: auto;
-  } */
 
     .nav__item{
-    position: static;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
