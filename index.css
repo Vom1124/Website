@@ -425,7 +425,7 @@ body:not(.user-is-tabbing) a:focus {
     /* top: 0;
     left: 0; */
     width: 100%;
-    padding: 10px 20px; /* give room for nav */
+    padding: 10px; /* give room for nav */
     box-sizing: border-box; /* Ensure padding doesn't overflow */
   }
 
@@ -438,7 +438,7 @@ body:not(.user-is-tabbing) a:focus {
     gap: 10px;
     justify-content: flex-start;
     border-radius: 5px; /* optional: make it look nicer */
-    top: 10px;
+    top: 20px;
     right: 10px;
     z-index: 10;
   }
