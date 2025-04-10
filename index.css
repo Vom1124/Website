@@ -414,11 +414,11 @@ body:not(.user-is-tabbing) a:focus {
 
 /* adjust for landscape mode*/
 @media (max-width: 768px) and (orientation: landscape) {
-  .header {
+  /* .header {
     background-size: cover;
     background-position: center center;
     min-height: 100vh; /* Ensure full viewport coverage */
-    display: flex;
+    /* display: flex; */
     /* flex-direction: column; */
     /*align-items: flex-end;*/
     /* justify-content: flex-start; */
@@ -428,30 +428,55 @@ body:not(.user-is-tabbing) a:focus {
     /* top: 0;
     left: 0; */
     /* width: 100%; */
-    padding: 20px 5px; /* give room for nav */
-    box-sizing: border-box; /* Ensure padding doesn't overflow */
+    /* padding: 20px 5px; give room for nav */
+    /* box-sizing: border-box; Ensure padding doesn't overflow */
     /* z-index:0; */
-  }
+  /* } */
 
 
-    .nav__item{
-    position: absolute;
-    display: flex;
-    top: 20px; /* Closer to top */
-    right: 20px; /* More spacing from edge */
-    gap: 15px; /* Reduced gap for landscape */
-    flex-wrap: wrap; /* Allow items to wrap if needed */
+    /* .nav__item{ */
+    /* position: absolute; */
+    /* display: flex; */
+    /* top: 20px; Closer to top */
+    /* right: 20px; More spacing from edge */
+    /* gap: 15px; Reduced gap for landscape */
+    /* flex-wrap: wrap; Allow items to wrap if needed */
     /* align-items: flex-start;
     justify-content: flex-start;
     z-index: 1; */
-  }
+  /* } */
    /* Optional: Adjust text size or layout for the navigation items */
-  .nav__item a {
-    font-size: 1em; /* Slightly smaller for landscape */
-    padding: 5px 10px; /* Better touch targets */
-    background: rgba(255,255,255,0.1); /* Better visibility */
-    border-radius: 5px;
+  /* .nav__item a { */
+    /* font-size: 1em; Slightly smaller for landscape */
+    /* padding: 5px 10px; Better touch targets */
+    /* background: rgba(255,255,255,0.1); Better visibility */
+    /* border-radius: 5px; */
+  /* } */
+  .header {
+    padding: 1rem 0.5rem; /* Reduce padding in landscape */
   }
+
+  .header-name {
+    font-size: 1.8rem; /* Slightly smaller to fit */
+    line-height: 1.1;
+  }
+
+  .header-subtitle,
+  .header-tagline {
+    font-size: 1.1rem; /* Scale down subtitles */
+    margin: 0.2rem 0; /* Tighter spacing */
+  }
+
+  .header-description {
+    font-size: 0.95rem; /* Smaller but still readable */
+    margin: 0.5rem 0 0 0;
+    line-height: 1.4;
+  }
+
+  .divider {
+    margin: 1rem 0; /* Less vertical space */
+  }
+
 } 
 
 /* --------------------------------------- */
