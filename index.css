@@ -421,18 +421,18 @@ body:not(.user-is-tabbing) a:focus {
 
     /* Text hierarchy adjustments */
     .header h1 {
-        font-size: 1.5rem !important;
+        font-size: 2.5rem !important;
         margin-bottom: 0.2rem !important;
         line-height: 1.1;
     }
 
     .header h2 {
-        font-size: 1.2rem !important;
+        font-size: 1.75rem !important;
         margin-bottom: 0.3rem !important;
     }
 
     .header p {
-        font-size: 0.9rem !important;
+        font-size: 1.1rem !important;
         margin-bottom: 1rem !important;
         line-height: 1.3;
     }
