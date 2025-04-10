@@ -409,6 +409,7 @@ body:not(.user-is-tabbing) a:focus {
     height: 2px;
     background: var(--pink);
 }
+
 /* adjust for landscape mode*/
 @media (max-width: 768px) and (orientation: landscape) {
   .header {
@@ -430,6 +431,8 @@ body:not(.user-is-tabbing) a:focus {
 
   .nav {
     display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     flex-direction: column; /* stack vertically */
     align-items: flex-end;
     gap: 10px;
@@ -441,7 +444,7 @@ body:not(.user-is-tabbing) a:focus {
     border-radius: 5px; /* optional: make it look nicer */
     top: 10px;
     right: 10px;
-    z-index: 1000;
+    z-index: 10;
   }
    /* Optional: Adjust text size or layout for the navigation items */
     .nav__item a {
@@ -643,11 +646,12 @@ body:not(.user-is-tabbing) a:focus {
 @media(min-width: 915px) {
     .about__text {
         flex: 0 0 60%;
-        height: 1000px;
+        /* height: 1000px; */
     }
     
     .about__photo-container {
         flex: 1;
+        justify-content: center;
         height: 500vh;
         margin: 0 var(--gutter-huge) 0 0;
     }
