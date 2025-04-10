@@ -419,7 +419,7 @@ body:not(.user-is-tabbing) a:focus {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     /* gap: 10px; #Adds vertical spacing */
     position: relative;
     /* top: 0;
@@ -433,9 +433,9 @@ body:not(.user-is-tabbing) a:focus {
     .nav__item{
     position: absolute;
     display: flex;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     /*align-items: flex-end;*/
-    gap: 10px;
+    gap: 30px;
     justify-content: flex-start;
     border-radius: 5px; /* optional: make it look nicer */
     top: 20px;
