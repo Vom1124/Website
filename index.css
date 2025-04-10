@@ -431,16 +431,16 @@ body:not(.user-is-tabbing) a:focus {
 
 
     .nav__item{
-    position: relative;
+    position: absolute;
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    /*flex-wrap: wrap;*/
+    /*align-items: flex-end;*/
     gap: 10px;
     justify-content: flex-start;
     border-radius: 5px; /* optional: make it look nicer */
     top: 20px;
     right: 10px;
-    z-index: 10;
+    z-index: 1;
   }
    /* Optional: Adjust text size or layout for the navigation items */
     .nav__item a {
