@@ -384,7 +384,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 0;
     text-decoration: none;
     /* color: inherit; */
-    color:rgb(184, 114, 255);
+    color:rgb(248, 146, 205);
     transition: all .2s;
 }
 
@@ -416,8 +416,8 @@ body:not(.user-is-tabbing) a:focus {
     background-position: center center;
     flex-direction: column;
     align-items: flex-start;
-    position: relative;
-    padding-top: 60px; /* give room for nav */
+    position: absolute;
+    padding-top: 10px; /* give room for nav */
   }
 
   .nav__item{
@@ -437,7 +437,7 @@ body:not(.user-is-tabbing) a:focus {
     border-radius: 12px;
     display: inline-block;
     color: #FFFFFF;
-    text-shadow: 0 0 50px rgba(125, 74, 74, 1.0), 0 0 15px rgba(255, 255, 255, 0.35);
+    text-shadow: 0 0 50px rgba(122, 104, 104, 0.705), 0 0 20px rgba(255, 255, 255, 0.75);
   }
 .neon-box_minor {
     background: rgba(34, 34, 34, 0.65); /* semi-transparent black */
