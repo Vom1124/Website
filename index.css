@@ -415,6 +415,8 @@ body:not(.user-is-tabbing) a:focus {
 /* adjust for landscape mode*/
 @media (max-width: 768px) and (orientation: landscape) {
     .header {
+        overflow-y: auto; /* Enable scrolling */
+        max-height: 100vh;
         flex-direction: row; /* Switch to horizontal layout */
         flex-wrap: wrap; /* Allow wrapping */
         align-items: center;
