@@ -417,8 +417,8 @@ body:not(.user-is-tabbing) a:focus {
     .header {
         padding: 30px 5px; /*Reduced padding*/
         /* padding-top: 50px; */
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
         justify-content: center; /* Better vertical centering */
     }
 
@@ -450,7 +450,7 @@ body:not(.user-is-tabbing) a:focus {
 
     .nav__item a {
         font-size: 0.9em !important;
-        padding: 20px 8px !important;
+        padding: 10px 8px !important;
     }
 
 } 
