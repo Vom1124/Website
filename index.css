@@ -475,7 +475,7 @@ body:not(.user-is-tabbing) a:focus {
   }
   
 .header {
-    background: linear-gradient(to top left, rgba(255, 0, 0, 0.137), rgba(80, 52, 1, 0.767)),
+    background: linear-gradient(to top left, rgba(107, 0, 0, 0.426), rgba(80, 52, 1, 0.397)),
     url('./images/header3.jpg');
     background-blend-mode: screen;
     height: 100dvh;
