@@ -416,15 +416,24 @@ body:not(.user-is-tabbing) a:focus {
     background-position: center center;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px; /* Adds vertical spacing */
     position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding-top: 10px; /* give room for nav */
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
   }
 
-  .nav__item{
+    .nav__item{
     position: absolute;
     top: 10px;
     right: 10px;
     z-index: 10;
+  }
+   /* Optional: Adjust text size or layout for the navigation items */
+    .nav__item a {
+    font-size: 1.2em; /* Slightly larger font for better visibility */
   }
 } 
 
