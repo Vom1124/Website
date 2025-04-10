@@ -383,9 +383,11 @@ body:not(.user-is-tabbing) a:focus {
     display: inline-block;
     padding: 1rem 0;
     text-decoration: none;
-    /* color: inherit; */
-    color:rgb(248, 146, 205);
-    transition: all .2s;
+    color: inherit;
+    /* color:rgb(248, 146, 205); */
+    transition: all 0.3s ease;
+    border-radius: 4px; /* Subtle rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle depth */
 }
 
 .nav__link::after {
