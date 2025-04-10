@@ -415,15 +415,15 @@ body:not(.user-is-tabbing) a:focus {
 /* adjust for landscape mode*/
 @media (max-width: 768px) and (orientation: landscape) {
     .header {
-        padding: 10px 5px; /* Reduced padding */
+        padding: 30px 5px; /* Reduced padding */
         justify-content: center; /* Better vertical centering */
     }
 
     /* Text hierarchy adjustments */
     .header h1 {
         font-size: 2.5rem !important;
-        margin-bottom: 0.5rem !important;
-        line-height: 1.1;
+        margin-bottom: 1.0rem !important;
+        line-height: 1.25;
     }
 
     .header h2 {
@@ -432,7 +432,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .header p {
-        font-size: 1.75rem !important;
+        font-size: 1.5rem !important;
         margin-bottom: 1rem !important;
         line-height: 1.3;
     }
