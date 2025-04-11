@@ -417,8 +417,8 @@ body:not(.user-is-tabbing) a:focus {
     .header {        
         padding: 70px 12px 12px !important; /* Top space for nav */
         min-height: 100vh;
-        display: flex !important;
-        flex-direction: column !important;
+        /* display: flex !important;
+        flex-direction: column !important; */
       }
 
     /* Text hierarchy adjustments */
@@ -441,7 +441,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     /* Navigation adjustments */
-    .nav__item {outline: 1px solid blue;
+    .nav__item {outline: 1px solid rgb(255, 0, 4);
         position: fixed !important;
         top: 12px !important;
         right: 12px !important;
