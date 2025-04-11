@@ -381,13 +381,13 @@ body:not(.user-is-tabbing) a:focus {
     background-color: #434341b7; /* Background color of the link */
     position: relative;
     display: inline-block;
-    padding: 1rem 0;
+    padding: 0.25rem 1rem;
     text-decoration: none;
     /* color: inherit; */
     color:rgba(248, 206, 146, 0.89);
     transition: all 0.3s ease;
     border-radius: 20px; /* Subtle rounded corners */
-    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.369); /* Subtle depth */
+    box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.369); /* Subtle depth */
 }
 
 .nav__link::after {
@@ -419,7 +419,7 @@ body:not(.user-is-tabbing) a:focus {
         flex-direction: column;
         align-items: center; /* Center child elements horizontally */
         justify-content: flex-start;
-        padding: 12px 12px 12px !important;
+        padding: 12px 12px 12px;
         min-height: 100dvh;
         position: relative;
         text-align: center; /* Optional for text inside */
