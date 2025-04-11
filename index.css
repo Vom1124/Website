@@ -416,7 +416,7 @@ body:not(.user-is-tabbing) a:focus {
 @media (max-width: 812px) and (orientation: landscape) {
     .header {        
         padding: 70px 12px 12px !important; /* Top space for nav */
-        min-height: 100vh;
+        min-height: 100dvh;
         /* display: flex !important;
         flex-direction: column !important; */
       }
@@ -440,24 +440,25 @@ body:not(.user-is-tabbing) a:focus {
         line-height: 1.1;
     }
 
-    /* Navigation adjustments */
-    .nav {
+    /* Navigation adjustments */   
+    .nav__items {
         display: flex;
-        flex-direction: column;     /* Stack nav items vertically */
-        align-items: center;        /* Center them horizontally */
-        gap: 12px;                  /* Space between buttons */
-        margin-top: 20px;
+        flex-direction: column;    /* Stack vertically */
+        align-items: center;       /* Center align horizontally */
+        gap: 12px;                 /* Space between each item */
+        padding: 0;
+        margin: 20px 0 0 0;
+        list-style: none;          /* Remove bullet points */
       }
-    
-      .nav__item {
+
+    .nav__item {
         background-color: rgba(0, 0, 0, 0.6);
         padding: 10px 16px;
         border-radius: 8px;
         text-align: center;
         width: fit-content;
       }
-
-      .nav__item a {
+      .nav__link {
         color: white;
         text-decoration: none;
         font-weight: bold;
