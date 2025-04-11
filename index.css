@@ -346,8 +346,8 @@ body:not(.user-is-tabbing) a:focus {
 .nav {
     display: flex;
     justify-content: flex-end;
-    width: 90%; /*Ensuring full width span*/
-    padding: var(--gutter-normal) 0;
+    width: 110%; /*Ensuring full width span*/
+    padding: var(--gutter-normal) 10px;
 }
 
 .nav__items {
@@ -430,21 +430,21 @@ body:not(.user-is-tabbing) a:focus {
         margin-top: 50px !important;
         font-size: 2.75rem !important;
         line-height: 1.0;
-        margin: 0 0 1rem auto;
+        margin: 0 auto 1rem 0;
         text-align: left;
         width: 90%; /* or 100%, depending on your preference */
     }
 
     .header h2 {
         font-size: 2.5rem !important;
-        margin: 0 0 1rem auto;
+        margin: 0 auto 1rem 0;
         text-align: left;
         width: 90%; /* or 100%, depending on your preference */
     }
 
     .header p {
         font-size: 2.0rem !important;
-        margin: 0 0 1rem auto;
+        margin: 0 auto 1rem 0;
         text-align: left; 
         width: 90%; /* or 100%, depending on your preference */
     }
