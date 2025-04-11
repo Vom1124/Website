@@ -413,7 +413,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* adjust for landscape mode*/
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 812px) and (orientation: landscape) {
     .header {        
         padding: 70px 12px 12px !important; /* Top space for nav */
         min-height: 100vh;
@@ -441,12 +441,12 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     /* Navigation adjustments */
-    .nav__item {
+    .nav__item { outline: 2px dashed red; 
         position: absolute;
         top: 20px;
         right: 20px;
         display: flex;
-        gap: 12px;
+        gap: 40px;
         list-style: none;
         margin: 0;
         padding: 8px 12px;
@@ -462,7 +462,6 @@ body:not(.user-is-tabbing) a:focus {
         padding: 5px 8px !important;
         display: inline-block !important;
       }
-    
 
 } 
 
