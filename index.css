@@ -442,15 +442,15 @@ body:not(.user-is-tabbing) a:focus {
 
     /* Navigation adjustments */
     .nav__item {
-    position: fixed !important;
-    top: 15px !important;
-    right: 15px !important;
-    display: flex !important;
+    /* position: fixed !important; */
+    /* top: 15px !important; */
+    /* right: 15px !important; */
+    /* display: flex !important; */
     gap: 0 !important; /* Reset gap for manual control */
-    padding: 5px 5px !important;
+    /* padding: 5px 5px !important; */
     /* background: rgba(255,255,255,0.95) !important; */
-    z-index: 1000;
-    backdrop-filter: blur(4px); /* Frosted glass effect */
+    /* z-index: 1000;
+    backdrop-filter: blur(4px); Frosted glass effect */
     }
     
     .nav__item a {
