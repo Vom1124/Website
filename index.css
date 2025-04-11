@@ -446,8 +446,8 @@ body:not(.user-is-tabbing) a:focus {
     top: 15px !important;
     right: 15px !important;
     display: flex !important;
-    gap: 80px !important; /* Visible space between items */
-    padding: 5px !important;
+    gap: 300px !important; /* Visible space between items */
+    padding: 3px !important;
     background: rgba(255,255,255,0.95) !important;
     border-radius: 8px !important;
     box-shadow: 
@@ -458,8 +458,8 @@ body:not(.user-is-tabbing) a:focus {
     
     .nav__item a {
         display: block !important; /* Change from inline-block */
-        position: relative;
-        padding: 8px 15px !important;
+        /* position: relative; */
+        padding: 4px 3px !important;
         font-size: 0.9rem !important;
         font-weight: 500 !important;
         background: white !important;
