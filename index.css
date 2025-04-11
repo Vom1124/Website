@@ -458,7 +458,7 @@ body:not(.user-is-tabbing) a:focus {
     
     .nav__item a {
         display: block !important; /* Change from inline-block */
-        padding: 8px 12px !important;
+        padding: 8px 50px !important;
         font-size: 0.9rem !important;
         font-weight: 500 !important;
         background: white !important;
