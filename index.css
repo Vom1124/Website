@@ -446,14 +446,15 @@ body:not(.user-is-tabbing) a:focus {
     top: 15px !important;
     right: 15px !important;
     display: flex !important;
-    gap: 300px !important; /* Visible space between items */
-    padding: 3px !important;
+    gap: 20px !important; /* Visible space between items */
+    padding: 8px 10px !important;
     background: rgba(255,255,255,0.95) !important;
     border-radius: 8px !important;
     box-shadow: 
         0 0 0 1px rgba(0,0,0,0.1) /* Outer border */,
         0 2px 15px rgba(0,0,0,0.15) !important; /* Shadow */
     z-index: 1000;
+    backdrop-filter: blur(4px); /* Frosted glass effect */
     }
     
     .nav__item a {
