@@ -681,7 +681,7 @@ body:not(.user-is-tabbing) a:focus {
         flex: 1;
         /* justify-content: center; */
         align-items: center;
-        height: 100vh;
+        height: auto;
         margin: 0 var(--gutter-huge) 0 0;
     }
 }
