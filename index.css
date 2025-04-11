@@ -347,7 +347,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     justify-content: flex-end;
     width: 100%; /*Ensuring full width span*/
-    padding: var(--gutter-normal) 0;
+    padding: var(--gutter-normal) ;
 }
 
 .nav__items {
@@ -415,37 +415,37 @@ body:not(.user-is-tabbing) a:focus {
 /* adjust for landscape mode*/
 @media (max-width: 812px) and (orientation: landscape) {
     .header {
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center child elements horizontally */
-        justify-content: flex-start;
-        padding: 12px 12px 12px;
-        min-height: 100dvh;
-        position: relative;
-        text-align: center; /* Optional for text inside */
+       display: flex;
+       flex-direction: column;
+    align-items: flex-start; /* Important */
+    justify-content: flex-start;
+    padding: 70px 4px 12px;
+    min-height: 200dvh;
+    position: relative;
+    
       }
 
     /* Text hierarchy adjustments */
     .header h1 {
-        margin-top: 80px !important;
+        margin-top: 50px !important;
         font-size: 2.75rem !important;
         line-height: 1.0;
-        margin: 0 auto 1rem auto;
-        text-align: center;
+        margin: 0 auto 1rem 0;
+        text-align: left;
         width: 90%; /* or 100%, depending on your preference */
     }
 
     .header h2 {
         font-size: 2.5rem !important;
-        margin: 0 auto 1rem auto;
-        text-align: center;
+        margin: 0 auto 1rem 0;
+        text-align: left;
         width: 90%; /* or 100%, depending on your preference */
     }
 
     .header p {
         font-size: 2.0rem !important;
-        margin: 0 auto 1rem auto;
-        text-align: center; 
+        margin: 0 auto 1rem 0;
+        text-align: left; 
         width: 90%; /* or 100%, depending on your preference */
     }
 
@@ -456,7 +456,7 @@ body:not(.user-is-tabbing) a:focus {
         right: 12px;
         display: flex;
         flex-direction: row;
-        gap: 12px;
+        gap: 8px;
         margin: 0;
         padding: 0;
         list-style: none;
