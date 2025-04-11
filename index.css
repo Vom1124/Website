@@ -413,7 +413,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* adjust for landscape mode*/
-@media (max-width: 812px) and (orientation: landscape) {
+@media (max-width: 775px) and (orientation: landscape) {
     .header {        
         padding: 70px 12px 12px !important; /* Top space for nav */
         min-height: 100vh;
@@ -441,26 +441,36 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     /* Navigation adjustments */
-    .nav__item { outline: 2px dashed red; 
-        position: fixed !important;
-        top: 20px;
-        right: 20px;
-        display: flex !important;
-        gap: 10px !important;
-        list-style: none;
-        margin: 0;
-        padding: 8px 12px;
-        background: rgba(255, 255, 255, 0.9);
-        border-radius: 6px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        z-index: 100;
-      }
-      
+    .nav__item {
+    position: fixed !important;
+    top: 15px !important;
+    right: 15px !important;
+    display: flex !important;
+    gap: 8px !important; /* Visible space between items */
+    padding: 10px !important;
+    background: rgba(255,255,255,0.95) !important;
+    border-radius: 8px !important;
+    box-shadow: 
+        0 0 0 1px rgba(0,0,0,0.1) /* Outer border */,
+        0 2px 15px rgba(0,0,0,0.15) !important; /* Shadow */
+    z-index: 1000;
+    }
     
-      .nav__item a {
-        font-size: 0.95rem !important;
-        padding: 5px 8px !important;
-        display: block !important;
+    .nav__item a {
+        display: block !important; /* Change from inline-block */
+        padding: 8px 12px !important;
+        font-size: 0.9rem !important;
+        font-weight: 500 !important;
+        background: white !important;
+        border: 1px solid #e2e5e9 !important; /* Visible border */
+        border-radius: 6px !important;
+        color: #1a365d !important;
+        text-decoration: none !important;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+        
+        /* Force separation even when touching */
+        transform: translateZ(0); /* GPU layer hack */
+        transition: all 0.2s ease !important;
       }
 
 } 
