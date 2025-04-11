@@ -441,23 +441,28 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     /* Navigation adjustments */
-    .nav__item {
-    /* position: fixed !important; */
-    /* top: 15px !important; */
-    /* right: 15px !important; */
-    /* display: flex !important; */
-    gap: 0 !important; /* Reset gap for manual control */
-    /* padding: 5px 5px !important; */
-    /* background: rgba(255,255,255,0.95) !important; */
-    /* z-index: 1000;
-    backdrop-filter: blur(4px); Frosted glass effect */
-    }
+    .nav {
+        display: flex;
+        flex-direction: column;     /* Stack nav items vertically */
+        align-items: center;        /* Center them horizontally */
+        gap: 12px;                  /* Space between buttons */
+        margin-top: 20px;
+      }
     
-    .nav__item a {
-    margin: 0 4px !important; /* Manual spacing */
-    position: relative !important;
-    }
+      .nav__item {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 10px 16px;
+        border-radius: 8px;
+        text-align: center;
+        width: fit-content;
+      }
 
+      .nav__item a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+      }
 } 
 
 /* --------------------------------------- */
