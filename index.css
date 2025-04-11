@@ -422,15 +422,16 @@ body:not(.user-is-tabbing) a:focus {
         flex-direction: column !important;
         align-items: center !important;
         justify-content: flex-start;
+        text-align: left; /* Optional for text inside */
         gap: 16px; /* Add spacing between h1 and nav */
       }
 
     /* Text hierarchy adjustments */
     .header h1 {
         margin-top: 60px !important;
-        font-size: 1.5rem !important;
+        font-size: 2.75rem !important;
         margin-bottom: 0.5rem !important;
-        line-height: 1.1;
+        line-height: 1.5;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -438,7 +439,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .header h2 {
-        font-size: 1.2rem !important;
+        font-size: 2.5rem !important;
         margin-bottom: 0.3rem !important;
         text-align: center;
         margin-left: auto;
@@ -447,9 +448,9 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .header p {
-        font-size: 1.35rem !important;
+        font-size: 2.0rem !important;
         margin-bottom: 1rem !important;
-        line-height: 1.1;
+        line-height: 1.25;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
