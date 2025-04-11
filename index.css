@@ -414,13 +414,12 @@ body:not(.user-is-tabbing) a:focus {
 
 /* adjust for landscape mode*/
 @media (max-width: 768px) and (orientation: landscape) {
-    .header {
-        padding: 30px 5px; /*Reduced padding
-         /* padding-top: 50px;  */
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-        justify-content: center; /* Better vertical centering */
-    }
+    .header {        
+        padding: 70px 12px 12px !important; /* Top space for nav */
+        min-height: 100vh;
+        display: flex !important;
+        flex-direction: column !important;
+      }
 
     /* Text hierarchy adjustments */
     .header h1 {
@@ -442,10 +441,14 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     /* Navigation adjustments */
-    .nav__item {
-        top: 5px !important;
-        right: 10px !important;
-        gap: 10px !important;
+    .nav__item {outline: 1px solid blue;
+        position: fixed !important;
+        top: 12px !important;
+        right: 12px !important;
+        gap: 6px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        z-index: 1000 !important
     }
 
     .nav__item a {
