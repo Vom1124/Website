@@ -442,10 +442,10 @@ body:not(.user-is-tabbing) a:focus {
 
     /* Navigation adjustments */
     .nav__item {
-        position: fixed !important;
+        position: relative !important;
         top: 15px !important;
         right: 15px !important;
-        background: rgba(255,255,255,0.9);
+        background: rgba(255, 255, 255, 0);
         border-radius: 6px;
         padding: 4px 8px !important;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
