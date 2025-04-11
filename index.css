@@ -386,7 +386,7 @@ body:not(.user-is-tabbing) a:focus {
     /* color: inherit; */
     color:rgba(248, 206, 146, 0.89);
     transition: all 0.3s ease;
-    border-radius: 30px; /* Subtle rounded corners */
+    border-radius: 20px; /* Subtle rounded corners */
     box-shadow: 0 10px 6px rgba(0, 0, 0, 0.369); /* Subtle depth */
 }
 
@@ -432,12 +432,18 @@ body:not(.user-is-tabbing) a:focus {
         margin-bottom: 0.5rem !important;
         line-height: 1.1;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
     .header h2 {
         font-size: 1.2rem !important;
         margin-bottom: 0.3rem !important;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
     .header p {
@@ -445,9 +451,12 @@ body:not(.user-is-tabbing) a:focus {
         margin-bottom: 1rem !important;
         line-height: 1.1;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
-/* Navigation adjustments */
+    /* Navigation adjustments */
     .nav__items {
         position: absolute;
         top: 12px;
@@ -462,17 +471,17 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .nav__item {
-        background-color: rgba(0, 0, 0, 0.6);
+        /* background-color: rgba(0, 0, 0, 0.6); */
         padding: 8px 14px;
         border-radius: 6px;
     }
 
     .nav__link {
-        color: white;
+        /* color: white; */
         text-decoration: none;
         font-weight: bold;
-        font-size: 15px;
-        white-space: nowrap; /* Prevents shrinking or wrapping text */
+        /* font-size: 15px; */
+        /* white-space: nowrap; Prevents shrinking or wrapping text */
     }
 
 } 
