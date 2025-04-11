@@ -441,20 +441,24 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     /* Navigation adjustments */
-    .nav__item {outline: 1px solid rgb(255, 0, 4);
+    .nav__item {
         position: fixed !important;
-        top: 12px !important;
-        right: 12px !important;
-        gap: 6px !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        z-index: 1000 !important
-    }
-
-    .nav__item a {
-        font-size: 0.9em !important;
-        padding: 10px 8px !important;
-    }
+        top: 15px !important;
+        right: 15px !important;
+        background: rgba(255,255,255,0.9);
+        border-radius: 6px;
+        padding: 4px 8px !important;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        width: auto !important; /* Remove fixed width */
+        height: auto !important;
+      }
+    
+      .nav__item a {
+        font-size: 0.95rem !important;
+        padding: 5px 8px !important;
+        display: inline-block !important;
+      }
+    
 
 } 
 
