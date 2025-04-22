@@ -483,7 +483,7 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Header ----- */
 /* --------------------------------------- */
 .neon-box_major {
-    background: rgba(34, 34, 34, 0.975); /* semi-transparent black */
+    background: rgba(34, 34, 34, 0.9); /* semi-transparent black */
     padding: 10px 20px;
     border-radius: 12px;
     display: inline-block;
@@ -492,12 +492,12 @@ body:not(.user-is-tabbing) a:focus {
 
   }
 .neon-box_minor {
-    background: rgba(34, 34, 34, 0.975); /* semi-transparent black */
+    background: rgba(34, 34, 34, 0.9); /* semi-transparent black */
     padding: 10px 20px;
     border-radius: 12px;
     display: inline-block;
     color: #f0ecb1;
-    text-shadow: 0 0 50px rgba(122, 104, 104, 0.75), 0 0 50px rgba(255, 255, 255, 0.75);
+    text-shadow: 0 0 50px rgba(122, 104, 104, 0.45), 0 0 50px rgba(255, 255, 255, 0.45);
 
   }
   
@@ -527,7 +527,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .header__text p {
-    margin: 1.5rem 0 3.5rem;
+    margin: 1.2rem 0 3.0rem;
     max-width: var(--container-medium-width);
     font-family: 'Jost', sans-serif;
     font-size: var(--font-size-medium);
