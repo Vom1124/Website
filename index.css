@@ -488,7 +488,7 @@ body:not(.user-is-tabbing) a:focus {
     border-radius: 12px;
     display: inline-block;
     color: #ffdcdc;
-    text-shadow: 0 0 80px rgba(122, 104, 104, 0.5), 0 0 40px rgba(255, 255, 255, 0.5), 0 0 100px rgba(122, 104, 104, 0.1);
+    text-shadow: 0 0 80px rgba(122, 104, 104, 0.5), 0 0 40px rgba(255, 255, 255, 0.5), 0 0 100px rgba(122, 104, 104, 0.5);
 
   }
 .neon-box_minor {
