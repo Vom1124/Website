@@ -496,7 +496,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 10px 20px;
     border-radius: 12px;
     display: inline-block;
-    color: #fff00f;
+    color: #f0ecb1;
     text-shadow: 0 0 50px rgba(122, 104, 104, 0.5), 0 0 50px rgba(255, 255, 255, 0.5);
 
   }
