@@ -527,7 +527,10 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .header__text p {
-    margin: 1.5rem 0 3.5rem;
+    margin-top: 2.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 3.5rem;
     max-width: var(--container-medium-width);
     font-family: 'Jost', sans-serif;
     font-size: var(--font-size-medium);
@@ -535,7 +538,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 500px) {
     .header {
-        text-align: center;
+        text-align: left;
     }
 
     .header__text p {
