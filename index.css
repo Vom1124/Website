@@ -483,12 +483,12 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Header ----- */
 /* --------------------------------------- */
 .neon-box_major {
-    background: rgba(34, 34, 34, 0.8); /* semi-transparent black */
+    background: rgba(34, 34, 34, 0.9); /* semi-transparent black */
     padding: 10px 20px;
     border-radius: 12px;
     display: inline-block;
     color: #FFFFFF;
-    text-shadow: 0 0 80px rgba(122, 104, 104, 0.5), 0 0 40px rgba(255, 255, 255, 0.8), 0 0 100px rgba(122, 104, 104, 0.8);
+    text-shadow: 0 0 80px rgba(122, 104, 104, 0.5), 0 0 40px rgba(255, 255, 255, 0.65), 0 0 100px rgba(122, 104, 104, 0.65);
 
   }
 .neon-box_minor {
