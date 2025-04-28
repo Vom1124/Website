@@ -118,6 +118,43 @@
 						</div>
 					</div>
 
+						<!-- Ad Hoc Network-->
+						<div class="work__box">
+						<div class="work__text">
+							<h3>Resilient P2P Mesh Networking for Off-Grid IoT Systems</h3>
+								<p>
+								Developed to enable mission-critical communications in infrastructure-less environments, this dual-architecture system provides:
+								<br><br>
+								<strong>Centralized Mode:</strong> Hostapd-based access point with MAC filtering and bandwidth prioritization, achieving 25% faster handoffs than standard WiFi-Direct in testing.
+								<br><br>
+								<strong>Decentralized Mode:</strong> Automated mesh networking via wpa_supplicant (802.11s) with self-healing capabilities - nodes automatically reconfigure routes when devices leave/join the network.
+								<br><br>
+								The system features persistent connections through custom Netplan configurations and gateway failover scripts, maintaining <=50ms latency during node transitions. 
+								Shell scripts automate topology deployment across Ubuntu 22.04 LTS devices, making it suitable for field robotics and emergency response systems.
+								</p>
+
+								<ul class="work__list">
+									<li>Linux Networking Kernel Modules (nl80211)</li>
+									<li>Hostapd with QoS Prioritization</li>
+									<li>WPA_Supplicant (WPA3-PSK Authentication)</li>
+									<li>Netplan + systemd-networkd Integration</li>
+									<li>Bash Automation (Device Discovery, IP Assignment)</li>
+									<li>Throughput Optimization (iperf3-tested)</li>
+								</ul>
+							<div class="work__links">
+								<a  href="https://github.com/Vom1124/P2P_AdHoc-Networking/blob/main/README.md" class="link__text">
+									Visit Related Work <span>&rarr;</span>
+								</a>
+								<a href="https://github.com/Vom1124/P2P_AdHoc-Networking.git" title="View Source Code" target="_blank">
+									<img src="./images/github.svg" class="work__code" alt="GitHub">
+								</a>
+							</div>
+						</div>
+						<div class="work__image-box">
+							<img src="./images/injection_protocol.gif" class="work__image" alt="Project 2" style="display: inline-block; width: auto; height: auto;" />
+						</div>
+					</div>
+
 					<!-- ACIST CT NGI-->
 					<div class="work__box">
 						<div class="work__text">
