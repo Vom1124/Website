@@ -126,18 +126,14 @@
 						<div class="work__text">
 							<h3>Resilient Peer-to-Peer Mesh Networking for Off-Grid IoT Systems</h3>
 							<p>
-							Designed for robust, long-duration communication in infrastructure-free environments, 
-								this dual-mode peer-to-peer (P2P) networking system supports both centralized 
-								and decentralized configurations. In the <strong>Centralized Mode</strong>, a 
-								designated device acts as an access point using hostapd, enabling multiple clients 
-								to connect via DHCP or static gateway assignment—providing controlled access and 
-								simplifying topology management. The <strong>Decentralized Mode</strong> establishes 
-								a fully peer-to-peer mesh network using wpa_supplicant (802.11s) and systemd-networkd, 
-								with static IPs configured through Netplan. This architecture allows devices to self-organize 
-								and maintain direct communication as nodes dynamically join or leave, ensuring resilient 
-								connectivity. Deployment is streamlined through custom shell scripts across Ubuntu 22.04 LTS, 
-								making the system highly adaptable for field robotics, IoT clusters, and multi-agent 
-								applications operating in disconnected or ad hoc environments.
+							Developed for robust, long-duration communication in infrastructure-less environments, this dual-mode peer-to-peer (P2P) 
+							networking system supports both centralized and decentralized configurations. In <strong>Centralized Mode</strong>, a device configured 
+							with hostapd serves as an access point, allowing client nodes to connect via DHCP or static gateways—enabling controlled 
+							access and easier topology management. In <strong>Decentralized Mode</strong>, a fully peer-to-peer mesh is formed using 
+							wpa_supplicant (802.11s) and systemd-networkd, with static IPs set via Netplan. Devices self-organize 
+							and maintain direct communication as nodes join or leave, ensuring resilient connectivity. 
+							Custom shell scripts streamline deployment across Ubuntu 22.04 LTS, 
+							making it ideal for ROS-based systems, IoT clusters, and multi-agent platforms in ad hoc or disconnected settings.
 
 							</p>
 
