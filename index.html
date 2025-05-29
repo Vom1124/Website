@@ -126,20 +126,28 @@
 						<div class="work__text">
 							<h3>Resilient Peer-to-Peer Mesh Networking for Off-Grid IoT Systems</h3>
 							<p>
-							Developed to enable mission-critical communications in infrastructure-less environments, this dual-architecture system offers a 
-							<strong>Centralized Mode</strong>—a Hostapd-based access point with MAC filtering and bandwidth prioritization that achieves 25% faster handoffs than standard WiFi-Direct—and a 
-							<strong>Decentralized Mode</strong>—automated mesh networking via wpa_supplicant (802.11s) with self-healing capabilities that reconfigure routes whenever nodes join or leave. 
-							Custom Netplan configurations and gateway failover scripts ensure persistent connections with sub-50 ms latency during node transitions, 
-							and shell scripts automate topology deployment across Ubuntu 22.04 LTS devices, making it ideal for field robotics and emergency response systems.
+							Designed for robust, long-duration communication in infrastructure-free environments, 
+								this dual-mode peer-to-peer (P2P) networking system supports both centralized 
+								and decentralized configurations. In the <strong>Centralized Mode</strong>, a 
+								designated device acts as an access point using hostapd, enabling multiple clients 
+								to connect via DHCP or static gateway assignment—providing controlled access and 
+								simplifying topology management. The <strong>Decentralized Mode</strong> establishes 
+								a fully peer-to-peer mesh network using wpa_supplicant (802.11s) and systemd-networkd, 
+								with static IPs configured through Netplan. This architecture allows devices to self-organize 
+								and maintain direct communication as nodes dynamically join or leave, ensuring resilient 
+								connectivity. Deployment is streamlined through custom shell scripts across Ubuntu 22.04 LTS, 
+								making the system highly adaptable for field robotics, IoT clusters, and multi-agent 
+								applications operating in disconnected or ad hoc environments.
+
 							</p>
 
 								<ul class="work__list">
 									<li>Linux Networking Kernel Modules (nl80211)</li>
-									<li>Hostapd with QoS Prioritization</li>
+									<li>Hostapd + DHCP/Static Gateway Configuration</li>
 									<li>WPA_Supplicant (WPA3-PSK Authentication)</li>
-									<li>Netplan + systemd-networkd Integration</li>
+									<li>Netplan and systemd-networkd for persistent IP and routing</li>
 									<li>Bash Automation (Device Discovery, IP Assignment)</li>
-									<li>Throughput Optimization (iperf3-tested)</li>
+									<li>Low-Latency Command Routing</li>
 								</ul>
 							<div class="work__links">
 								<a  href="https://github.com/Vom1124/P2P_AdHoc-Networking/blob/main/README.md" class="link__text">
