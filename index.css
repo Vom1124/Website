@@ -683,7 +683,7 @@ body:not(.user-is-tabbing) a:focus {
     
     .about__photo-container {
         flex: 1;
-        width: 500px;
+        /* width: 500px; */
         /* justify-content: center; */
         align-items: center;
         height: auto;
