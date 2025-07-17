@@ -683,10 +683,10 @@ body:not(.user-is-tabbing) a:focus {
     
     .about__photo-container {
         flex: 1;
-        width: 400px;
+        width: 500px;
         /* justify-content: center; */
         align-items: center;
-        height: 500px;
+        height: 600px;
         margin: 0 var(--gutter-huge) 0 0;
     }
 }
