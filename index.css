@@ -189,9 +189,10 @@ p {
 
 a {
     color: var(--white);
+    scroll-behavior: smooth;
     font-weight: 400;
     font-family: 'Jost', sans-serif;
-    transition: all .2s;
+    transition: all .4s;
     outline: 2px solid transparent;
 }
 
@@ -211,6 +212,10 @@ body:not(.user-is-tabbing) a:focus {
 
 .link:hover {
     color: var(--pink);
+}
+
+#CVs {
+  scroll-margin-top: 50vh; /* scroll so #CVs sits in the center */
 }
 
 .btn {
