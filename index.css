@@ -384,13 +384,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__link {
-    background-color: #434341b7; /* Background color of the link */
+    background-color: #a18675b7; /* Background color of the link */
     position: relative;
     display: inline-block;
     padding: 0.25rem 1rem;
     text-decoration: none;
     /* color: inherit; */
-    color:rgba(248, 206, 146, 0.89);
+    color:rgba(235, 168, 222, 0.89);
     transition: all 0.3s ease;
     border-radius: 20px; /* Subtle rounded corners */
     box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.369); /* Subtle depth */
@@ -687,9 +687,9 @@ body:not(.user-is-tabbing) a:focus {
     }
     
     .about__photo-container {
-        flex: 1;
-        /* width: 500px; */
-        /* height: 600px; */
+        /* flex: 1; */
+        width: 500px; 
+        height: 800px;
         /* justify-content: center; */
         align-items: center;
         margin: 0 var(--gutter-huge) 0 0;
