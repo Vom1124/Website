@@ -682,16 +682,16 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 915px) {
     .about__text {
-        flex: 0 0 75%;
+        flex: 0 0 67%;
         /* height: 1000px; */
     }
     
     .about__photo-container {
         flex: 1;
-        width: 600px;
+        width: 500px;
         /* justify-content: center; */
         align-items: center;
-        height: 1200px;
+        height: 600px;
         margin: 0 var(--gutter-huge) 0 0;
     }
 }
