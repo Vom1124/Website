@@ -390,7 +390,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 0.25rem 1rem;
     text-decoration: none;
     /* color: inherit; */
-    color:rgb(229, 223, 255);
+    --pink: #ff4b6ca2;
     transition: all 0.3s ease;
     border-radius: 20px; /* Subtle rounded corners */
     box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.369); /* Subtle depth */
