@@ -682,12 +682,12 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 915px) {
     .about__text {
-        flex: 0 0 55%;
+        flex: 0 0 60%;
         /* height: 1000px; */
     }
     
     .about__photo-container {
-        flex: 0 0 45%;
+        flex: 0 0 40%;
         /* width: 500px;  */
         /* height: 800px; */
         /* justify-content: center; */
