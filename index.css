@@ -390,7 +390,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 0.25rem 1rem;
     text-decoration: none;
     /* color: inherit; */
-    color:rgb(210, 197, 255);
+    color:rgb(229, 223, 255);
     transition: all 0.3s ease;
     border-radius: 20px; /* Subtle rounded corners */
     box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.369); /* Subtle depth */
@@ -682,12 +682,12 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 915px) {
     .about__text {
-        flex: 0 0 57%;
+        flex: 0 0 60%;
         /* height: 1000px; */
     }
     
     .about__photo-container {
-        flex: 0 0 40%;
+        flex: 1;
         /* width: 500px;  */
         /* height: 800px; */
         /* justify-content: center; */
