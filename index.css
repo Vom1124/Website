@@ -179,6 +179,11 @@ p {
 }
 @media (max-width: 480px) {
 
+    .header__text {
+        font-size: 1.2rem;
+        top: 40%;                  /* move upward */
+        transform: translateY(-40%);
+    }
     .heading-primary {
         font-size: 2.6rem;
     }
@@ -369,7 +374,7 @@ body:not(.user-is-tabbing) a:focus {
 .nav {
     display: flex;
     /* justify-content: flex-end; */ /*push to right*/
-    left: 1.5 rem;
+    left: 1.5rem;
     justify-content: flex-start; /* push to left*/
     width: 100%; /*Ensuring full width span*/
     padding: var(--gutter-normal) ;
@@ -556,7 +561,7 @@ body:not(.user-is-tabbing) a:focus {
 .header__text {
     position: absolute;
     top: 30%;
-    left: 1.5 rem;
+    left: 1.5rem;
     transform: translateY(50%);
 }
 
