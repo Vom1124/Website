@@ -159,6 +159,7 @@ h3 {
     margin-bottom: var(--gutter-small);
 }
 
+
 @media(max-width: 500px) {
     .heading-primary {
         font-size: var(--font-size-large);
@@ -176,7 +177,24 @@ h3 {
 p {
     margin: var(--gutter-small-1) 0;
 }
+@media (max-width: 480px) {
 
+    .heading-primary {
+        font-size: 2.6rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
 @media(max-width: 900px) {
     p { 
         max-width: var(--container-small-width);
@@ -350,7 +368,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav {
     display: flex;
-    justify-content: flex-end; /*push to right*/
+    /* justify-content: flex-end; */ /*push to right*/
     justify-content: flex-start; /* push to left*/
     width: 100%; /*Ensuring full width span*/
     padding: var(--gutter-normal) ;
@@ -387,19 +405,21 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 
-
 .nav__link {
+   /*  background-color: #804b2ab7; */ /* Background color of the link */
     background: rgba(0, 0, 0, 0.45);   /* dark glass */
-    color: #ffffff;
-
-    padding: 0.4rem 1.2rem;
-    border-radius: 20px;
-
-    border: 1px solid rgba(255, 255, 255, 0.15);
-
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    position: relative;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    text-decoration: none;
+    /* color: inherit; */
+    --pink: #ff4b6ca2;
     transition: all 0.3s ease;
+    border-radius: 20px; /* Subtle rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.369); /* Subtle depth */
 }
 
 .nav__link::after {
@@ -535,7 +555,7 @@ body:not(.user-is-tabbing) a:focus {
 .header__text {
     position: absolute;
     top: 30%;
-    transform: translateY(0%);
+    transform: translateY(50%);
 }
 
 .header__text p {
