@@ -187,9 +187,9 @@ p {
 
 
     .nav__link {
-        font-size: 2.0rem;
+        font-size: 1.5rem;
         padding: 0.2rem 0.6rem;
-        border-radius: 14px;
+        border-radius: 10px;
     }
 
     .header__text {
@@ -199,12 +199,13 @@ p {
         transform: translateY(-40%);
     }
     .heading-primary {
-        font-size: 1.5rem;
+        font-size: 1.0rem;
     }
 
     h1 {
         font-size: 1.8rem;
-        left: 0.65rem;
+        /* left: 0.65rem; */
+        transform: translateY(-20%);
     }
 
 
@@ -383,10 +384,10 @@ body:not(.user-is-tabbing) a:focus {
 .nav {
     display: absolute;
     /* justify-content: flex-end; */ /*push to right*/
-    left: 1.5rem;
+    left: 2.0rem;
     justify-content: flex-start; /* push to left*/
     width: auto; /*Ensuring full width span*/
-    padding: var(--gutter-normal) ;
+    /* padding: var(--gutter-normal) ; */
 }
 
 .nav__items {
@@ -425,7 +426,7 @@ body:not(.user-is-tabbing) a:focus {
     /* background: rgba(0, 0, 0, 0.45);  */  /* dark glass */
     background: rgba(128, 40, 40, 0.55);   /* soft reddish tone */
     color: #f5f5f5;
-    font-size: 3.0rem;
+    font-size: 2.0rem;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     position: relative;
