@@ -181,13 +181,13 @@ p {
 @media (max-width: 480px) {
     
     .nav {
-        left: 0.8rem;
-        gap: 0.5rem;
+        left: 0.65rem;
+        gap: 0.35rem;
     }
 
 
     .nav__link {
-        font-size: 1.8rem;
+        font-size: 2.0rem;
         padding: 0.2rem 0.6rem;
         border-radius: 14px;
     }
@@ -199,15 +199,17 @@ p {
         transform: translateY(-40%);
     }
     .heading-primary {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
 
     h2 {
         font-size: 1.8rem;
+        left: 0.65rem;
     }
 
     h3 {
         font-size: 1.6rem;
+        left: 0.65rem;
     }
 
     p {
@@ -577,7 +579,6 @@ body:not(.user-is-tabbing) a:focus {
 .header__text {
     position: absolute;
     top: 30%;
-    transform: translateX(20%);
     transform: translateY(0%);
 }
 
