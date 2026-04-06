@@ -386,7 +386,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .nav {
-    display: flex;
+    display: absolute;
     /* justify-content: flex-end; */ /*push to right*/
     left: 1.5rem;
     justify-content: flex-start; /* push to left*/
@@ -578,6 +578,7 @@ body:not(.user-is-tabbing) a:focus {
     position: absolute;
     top: 30%;
     left: 1.5rem;
+    transform: translateX(20%);
     transform: translateY(0%);
 }
 
