@@ -392,7 +392,6 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: flex-start; /* push to left*/
     width: 100%; /*Ensuring full width span*/
     padding: var(--gutter-normal) ;
-    transform: translateY(20%);
 }
 
 .nav__items {
@@ -577,7 +576,7 @@ body:not(.user-is-tabbing) a:focus {
     position: absolute;
     top: 30%;
     left: 1.5rem;
-    transform: translateY(20%);
+    transform: translateY(0%);
 }
 
 .header__text p {
