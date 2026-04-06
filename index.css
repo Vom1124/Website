@@ -544,13 +544,13 @@ body:not(.user-is-tabbing) a:focus {
     font-size: var(--font-size-medium);
 }
 
-@media(max-width: 500px) {
+@media(max-width: 480px) {
     .header {
         text-align: left;
     }
 
     .header__text p {
-        transform: scale(.8);
+        transform: scale(.65);
     }
 }
 
