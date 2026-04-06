@@ -187,19 +187,19 @@ p {
 
 
     .nav__link {
-        font-size: 1rem;
+        font-size: 1.8rem;
         padding: 0.2rem 0.6rem;
         border-radius: 14px;
     }
 
     .header__text {
         top: 40%;                  /* move upward */
-        left: 0.8rem;
-        width: 92%;
+        left: 0.65rem;
+        width: 90%;
         transform: translateY(-40%);
     }
     .heading-primary {
-        font-size: 2.2rem;
+        font-size: 1.9rem;
     }
 
     h2 {
@@ -525,7 +525,7 @@ body:not(.user-is-tabbing) a:focus {
         /* color: white; */
         text-decoration: none;
         font-weight: bold;
-        /* font-size: 15px; */
+        font-size: 2rem;
         /* white-space: nowrap; Prevents shrinking or wrapping text */
     }
 
