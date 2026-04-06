@@ -180,12 +180,11 @@ p {
 @media (max-width: 480px) {
 
     .header__text {
-        font-size: 1.2rem;
         top: 40%;                  /* move upward */
         transform: translateY(-40%);
     }
     .heading-primary {
-        font-size: 2.6rem;
+        font-size: 2.2rem;
     }
 
     h2 {
