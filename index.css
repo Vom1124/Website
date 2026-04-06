@@ -350,7 +350,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav {
     display: flex;
-    /* justify-content: flex-end; push to right */
+    justify-content: flex-end; /*push to right*/
     justify-content: flex-start; /* push to left*/
     width: 100%; /*Ensuring full width span*/
     padding: var(--gutter-normal) ;
@@ -362,6 +362,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 10px 14px;
     /* padding: 1.5rem 2rem; */
 }
+
 
 .nav__item:not(:last-child) {
     margin-right: var(--gutter-medium);
@@ -385,17 +386,20 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+
+
 .nav__link {
-    background-color: #804b2ab7; /* Background color of the link */
-    position: relative;
-    display: inline-block;
-    padding: 0.25rem 1rem;
-    text-decoration: none;
-    /* color: inherit; */
-    --pink: #ff4b6ca2;
+    background: rgba(0, 0, 0, 0.45);   /* dark glass */
+    color: #ffffff;
+
+    padding: 0.4rem 1.2rem;
+    border-radius: 20px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+
     transition: all 0.3s ease;
-    border-radius: 20px; /* Subtle rounded corners */
-    box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.369); /* Subtle depth */
 }
 
 .nav__link::after {
