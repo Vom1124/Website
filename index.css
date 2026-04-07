@@ -194,9 +194,9 @@ p {
     }
 
     .header {
-            background-size: contain;   /* show full image */
+            background-size: cover;   /* show full image */
             background-repeat: no-repeat;
-            background-position: center top;
+            background-position: left center;
     }
 
     .header__text {
