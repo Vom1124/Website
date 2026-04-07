@@ -217,6 +217,73 @@ p {
     }
 }
 
+/* adjust for landscape mode*/
+@media (max-width: 768px) and (orientation: landscape) {
+    .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Important */
+    justify-content: flex-start;
+    padding: 70px 4px 12px;
+    min-height: 200dvh;
+    position: relative;
+    
+      }
+
+    /* Text hierarchy adjustments */
+    .header h1 {
+        margin-top: 50px !important;
+        font-size: 2.75rem !important;
+        line-height: 1.0;
+        margin: 0 auto 1rem 0;
+        text-align: left;
+        width: 90%; /* or 100%, depending on your preference */
+    }
+
+    .header h2 {
+        font-size: 2.5rem !important;
+        margin: 0 auto 1rem 0;
+        text-align: left;
+        width: 90%; /* or 100%, depending on your preference */
+    }
+
+    .header p {
+        font-size: 2.0rem !important;
+        margin: 0 auto 1rem 0;
+        text-align: left; 
+        width: 90%; /* or 100%, depending on your preference */
+    }
+
+    /* Navigation adjustments */
+    .nav__items {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        z-index: 1000; /* ensure it's above everything else */
+    }
+
+    .nav__item {
+        /* background-color: rgba(0, 0, 0, 0.6); */
+        padding: 8px 14px;
+        border-radius: 6px;
+    }
+
+    .nav__link {
+        /* color: white; */
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 2rem;
+        /* white-space: nowrap; Prevents shrinking or wrapping text */
+    }
+
+} 
+
 /* --------------------------------------- */
 /* ----- Buttons and Links ----- */
 /* --------------------------------------- */
@@ -383,7 +450,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .nav {
-    display: absolute;
+    position: absolute;
+    display: flex;
     /* justify-content: flex-end; */ /*push to right*/
     left: 2.0rem;
     justify-content: flex-start; /* push to left*/
@@ -392,7 +460,8 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__items {
-    display: absolute;
+    position: absolute;
+    display: flex;
     left: 2rem;
     list-style: none;
     padding: 10px 14px;
@@ -465,72 +534,7 @@ body:not(.user-is-tabbing) a:focus {
     background: var(--pink);
 }
 
-/* adjust for landscape mode*/
-@media (max-width: 768px) and (orientation: landscape) {
-    .header {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Important */
-    justify-content: flex-start;
-    padding: 70px 4px 12px;
-    min-height: 200dvh;
-    position: relative;
-    
-      }
 
-    /* Text hierarchy adjustments */
-    .header h1 {
-        margin-top: 50px !important;
-        font-size: 2.75rem !important;
-        line-height: 1.0;
-        margin: 0 auto 1rem 0;
-        text-align: left;
-        width: 90%; /* or 100%, depending on your preference */
-    }
-
-    .header h2 {
-        font-size: 2.5rem !important;
-        margin: 0 auto 1rem 0;
-        text-align: left;
-        width: 90%; /* or 100%, depending on your preference */
-    }
-
-    .header p {
-        font-size: 2.0rem !important;
-        margin: 0 auto 1rem 0;
-        text-align: left; 
-        width: 90%; /* or 100%, depending on your preference */
-    }
-
-    /* Navigation adjustments */
-    .nav__items {
-        position: absolute;
-        top: 12px;
-        right: 12px;
-        display: flex;
-        flex-direction: row;
-        gap: 8px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        z-index: 1000; /* ensure it's above everything else */
-    }
-
-    .nav__item {
-        /* background-color: rgba(0, 0, 0, 0.6); */
-        padding: 8px 14px;
-        border-radius: 6px;
-    }
-
-    .nav__link {
-        /* color: white; */
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 2rem;
-        /* white-space: nowrap; Prevents shrinking or wrapping text */
-    }
-
-} 
 
 /* --------------------------------------- */
 /* ----- Header ----- */
